@@ -1,0 +1,277 @@
+// //  #include <iostream> // Include header for input/output operations
+// // #include <string>   // Include header for string manipulation
+// // #include <vector>   // Include header for dynamic arrays (vectors)
+
+// // // Global constant declaration
+// // const double PI = 3.14159;
+
+// // // Function declaration (prototype)
+// // int addNumbers(int a, int b);
+
+// // // Class declaration
+// // class MyClass {
+// // public: // Access specifier
+// //     // Member variables
+// //     int dataMember;
+// //     std::string name;
+
+// //     // Constructor declaration and definition
+// //     MyClass(int data, std::string n) : dataMember(data), name(n) {
+// //         std::cout << "MyClass object created with data: " << dataMember << " and name: " << name << std::endl;
+// //     }
+
+// //     // Member function declaration and definition
+// //     void printMessage() {
+// //         std::cout << "Hello from MyClass! Data: " << dataMember << std::endl;
+// //     }
+// // };
+
+// // // Main function - entry point of the program
+// // int main() {
+// //     // Variable declarations with different data types
+// //     int integerVariable = 10;
+// //     double doubleVariable = 20.5;
+// //     char charVariable = 'A';
+// //     bool booleanVariable = true;
+// //     std::string stringVariable = "Hello C++";
+
+// //     // Array declaration and initialization
+// //     int intArray[] = {1, 2, 3, 4, 5};
+// //     std::vector<int> intVector = {6, 7, 8};
+
+// //     // Output using std::cout
+// //     std::cout << "Integer Variable: " << integerVariable << std::endl;
+// //     std::cout << "Double Variable: " << doubleVariable << std::endl;
+// //     std::cout << "Character Variable: " << charVariable << std::endl;
+// //     std::cout << "Boolean Variable: " << std::boolalpha << booleanVariable << std::endl; // std::boolalpha for true/false output
+// //     std::cout << "String Variable: " << stringVariable << std::endl;
+// //     std::cout << "Global Constant PI: " << PI << std::endl;
+
+// //     // Looping constructs
+// //     std::cout << "\nArray elements using a for loop:" << std::endl;
+// //     for (int i = 0; i < 5; ++i) {
+// //         std::cout << "intArray[" << i << "]: " << intArray[i] << std::endl;
+// //     }
+
+// //     std::cout << "\nVector elements using a range-based for loop:" << std::endl;
+// //     for (int val : intVector) {
+// //         std::cout << "Vector element: " << val << std::endl;
+// //     }
+
+// //     // Conditional statements
+// //     if (integerVariable > 5) {
+// //         std::cout << "\nInteger variable is greater than 5." << std::endl;
+// //     } else {
+// //         std::cout << "\nInteger variable is not greater than 5." << std::endl;
+// //     }
+
+// //     // Function call
+// //     int sum = addNumbers(integerVariable, 5);
+// //     std::cout << "Sum of numbers: " << sum << std::endl;
+
+// //     // Object creation and member function call
+// //     MyClass obj1(100, "FirstObject");
+// //     obj1.printMessage();
+
+// //     // Pointer declaration and usage
+// //     int* ptr = &integerVariable;
+// //     std::cout << "Value via pointer: " << *ptr << std::endl;
+
+// //     // Reference declaration and usage
+// //     int& ref = integerVariable;
+// //     ref = 15; // Modifies integerVariable
+// //     std::cout << "Integer Variable after reference modification: " << integerVariable << std::endl;
+
+// //     return 0; // Indicate successful execution
+// // }
+
+// // // Function definition
+// // int addNumbers(int a, int b) {
+// //     return a + b;
+// // }
+// // // #include <iostream>
+// // // using namespace std;
+// // // int main(){
+
+
+// // //   int integer;
+// // //   cout<<"enter value of interger";
+// // //   cin>>integer;
+
+
+// // //   cout<<integer;
+
+
+
+
+
+// // //   return 0;
+// // // }
+//  #include <iostream>
+ 
+ 
+//  int sum(int a,int b){
+//      int result=0;
+//     std :: cout<<"Hlwwwwww  i am here to help you Welcome to c++ programming "<<std::endl;
+//      result=a+b;
+     
+//      return a+b;
+//  }
+//  using namespace std;
+//  int main(){
+     
+     
+//      int integer;
+//      char letter;
+//      float pointer;
+//      double large_pointer;
+     
+     
+//      cout<<"Enter Data of these following Variables"<<endl<<"integer"<<endl<<"Letter"<<endl<<"pointer"<<endl<<"Large pointer"<<endl;
+     
+//      cout<<"Enter value of integer :";
+//      cin>>integer;
+     
+//      cout<<endl<<"Enter a letter of your first name :"; 
+//      cin>>letter;
+     
+//      cout<<endl<<"Enter the value of pointer :";
+//      cin>>pointer;
+     
+//      cout<<endl<<"Enter value of large pointer :";
+//      cin>>large_pointer;
+     
+     
+//      cout<<"So there are all your value that you enter just before a minute"<<endl<<"Interger value is:"<<integer<<endl<<"Letter value is :"<<letter<<endl<<"Pointer value is :"<<pointer
+// <<endl<<"Large pointer value is :"<<large_pointer<<endl;
+// int size;
+// cout<<"Enter size of array :"<<endl;
+// cin>>size;
+// int arr[size];
+// cout<<endl<<"Enter the elements of arr :";
+// for(int i=0;i<=size;i++){
+//     cout<<"Enter elements of indexing :"<<i<<":"<<endl;
+//     cin>>arr[i];
+    
+// }
+//  cout<<"These are the values of Array :"<<endl;
+// for(int i=0;i<=size;i++){
+   
+//     cout<<"intArray[" << arr[i] << "]: ""element is "<<endl;
+ 
+    
+// }
+// int Result;
+// Result=sum(integer,5);
+
+//      if(integer>Result){
+//          cout<<"Ingeter value is greater than Result"<<endl;
+//      }
+//      cout<<"Sum of number :"<<Result<<endl;
+//      cout<<"Value of interger :"<<integer<<endl;
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+//      return 0;
+     
+     
+     
+     
+//  }
+ #include <iostream>
+ 
+ 
+ int sum(int a,int b){
+     int result=0;
+    std :: cout<<"Hlwwwwww  i am here to help you Welcome to c++ programming "<<std::endl;
+     result=a+b;
+     
+     return a+b;
+ }
+ using namespace std;
+ int main(){
+     
+     
+     int integer;
+     char letter;
+     float pointer;
+     double large_pointer;
+     
+     
+     cout<<"Enter Data of these following Variables"<<endl<<"integer"<<endl<<"Letter"<<endl<<"pointer"<<endl<<"Large pointer"<<endl;
+     
+     cout<<"Enter value of integer :";
+     cin>>integer;
+     
+     cout<<endl<<"Enter a letter of your first name :"; 
+     cin>>letter;
+     
+     cout<<endl<<"Enter the value of pointer :";
+     cin>>pointer;
+     
+     cout<<endl<<"Enter value of large pointer :";
+     cin>>large_pointer;
+     
+     
+     cout<<"So there are all your value that you enter just before a minute"<<endl<<"Interger value is:"<<integer<<endl<<"Letter value is :"<<letter<<endl<<"Pointer value is :"<<pointer
+<<endl<<"Large pointer value is :"<<large_pointer<<endl;
+int size;
+cout<<endl<<"Enter size of array :";
+cin>>size;
+int arr[size];
+cout<<endl<<"Enter the elements of arr :";
+for(int i=0;i<=size;i++){
+    cout<<endl<<"Enter elements of indexing :"<<i<<":";
+    cin>>arr[i];
+    
+}
+ cout<<"These are the values of Array :"<<endl;
+for(int i=0;i<=size;i++){
+   
+    cout<<"intArray  is [" << i << "]: "<<arr[i]<<endl;
+ 
+    
+}
+int Result;
+Result=sum(integer,5);
+
+     if(integer>Result){
+         cout<<"Ingeter value is greater than Result"<<endl;
+     }
+     cout<<"Sum of number :"<<Result<<endl;
+     cout<<"Value of interger :"<<integer<<endl;
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     return 0;
+     
+     
+     
+     
+ }
